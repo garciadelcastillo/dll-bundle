@@ -7,5 +7,5 @@ Can't be done natively (?). There is a tool/NuGet Package called `ILMerge` that 
 Made two projects: a `dll-bundling` with the above, and a console application `dll-bundling-test` that reads the manually referenced bundled `dll` and invokes a method with dependencies in the attached libraries. 
 
 REFS:
-[^1] https://github.com/dotnet/ILMerge
-[^2] https://www.inogic.com/blog/2018/06/automate-ilmerge-for-workflowsplugins-to-merge-multiple-assemblies-into-one-in-dynamics-365/
+[^1]: https://github.com/dotnet/ILMerge
+[^2]: https://www.inogic.com/blog/2018/06/automate-ilmerge-for-workflowsplugins-to-merge-multiple-assemblies-into-one-in-dynamics-365/
